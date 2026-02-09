@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  min-height: 100vh;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.price-badge {
+  background: linear-gradient(135deg, #10b981, #059669);
+}
+
+.competitor-henkel { border-left-color: #e3000b; }
+.competitor-3m { border-left-color: #ff0000; }
+.competitor-wuerth { border-left-color: #cc0000; }
+.competitor-sika { border-left-color: #f7a800; }
+.competitor-bostik { border-left-color: #00529b; }
+.competitor-delo { border-left-color: #0066b3; }
+.competitor-uhu { border-left-color: #ffcc00; }
+.competitor-permabond { border-left-color: #00467f; }
+.competitor-panacol { border-left-color: #003366; }
+.competitor-itw { border-left-color: #0033a0; }
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(59, 130, 246, 0.3); }
+  50% { box-shadow: 0 0 40px rgba(59, 130, 246, 0.6); }
+}
+
+.search-glow:focus {
+  animation: pulse-glow 2s infinite;
+}
+
+.stat-card {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1));
+}
