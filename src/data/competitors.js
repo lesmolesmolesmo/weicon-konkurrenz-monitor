@@ -262,3 +262,21 @@ export const marketData = {
     { name: 'Sonstige', share: 17 }
   ]
 };
+
+// WEICON Produkte für Vergleich
+export const weiconProducts = [
+  { id: 'w-001', name: 'WEICON Contact VA 20', category: 'Sekundenkleber', price: 14.90, unit: '20g', description: 'Universeller Cyanacrylat-Klebstoff für Kunststoff, Gummi, Metall' },
+  { id: 'w-002', name: 'WEICON Contact VA 110', category: 'Sekundenkleber', price: 18.50, unit: '20g', description: 'Flexibler Sekundenkleber für elastische Verbindungen' },
+  { id: 'w-003', name: 'WEICON Contact VA 1500', category: 'Sekundenkleber', price: 12.90, unit: '12g', description: 'Hochviskoser Sekundenkleber, spaltfüllend' },
+  { id: 'w-004', name: 'WEICON Contact VA 8312', category: 'Kontaktklebstoff', price: 24.50, unit: '1kg', description: 'Kontaktklebstoff für großflächige Verklebungen' },
+  { id: 'w-005', name: 'WEICON Epoxyd-Minutenkleber', category: '2K-Epoxy', price: 34.90, unit: '24ml', description: '2-Komponenten Epoxidharz, 5 Minuten Verarbeitungszeit' },
+  { id: 'w-006', name: 'WEICON Easy-Mix Metal', category: 'Strukturkleber', price: 42.00, unit: '50ml', description: 'Metallgefüllter Epoxidkleber für Reparaturen' },
+  { id: 'w-007', name: 'WEICON Easy-Mix RK-7000', category: 'MMA-Klebstoff', price: 45.00, unit: '50ml', description: 'Strukturklebstoff auf MMA-Basis' },
+  { id: 'w-008', name: 'WEICON Easy-Mix PU-240', category: 'PU-Klebstoff', price: 38.00, unit: '50ml', description: 'Polyurethan-Strukturklebstoff' },
+  { id: 'w-009', name: 'WEICON LOCK AN 302-42', category: 'Schraubensicherung', price: 28.50, unit: '50ml', description: 'Mittelfeste Schraubensicherung' },
+  { id: 'w-010', name: 'WEICON LOCK AN 305-72', category: 'Flächendichtung', price: 32.00, unit: '50ml', description: 'Anaerobe Flächendichtung' },
+  { id: 'w-011', name: 'WEICON Silicone A', category: 'Silikon', price: 9.50, unit: '310ml', description: 'Acetat-Silikon für allgemeine Anwendungen' },
+  { id: 'w-012', name: 'WEICON Silicone HT 300', category: 'Silikon', price: 14.90, unit: '310ml', description: 'Hochtemperatur-Silikon bis 300°C' },
+  { id: 'w-013', name: 'WEICON Flex 310 M', category: 'MS-Polymer', price: 11.90, unit: '310ml', description: 'Elastischer Kleb- und Dichtstoff' },
+  { id: 'w-014', name: 'WEICON Dichtmasse', category: 'Dichtmasse', price: 8.90, unit: '200g', description: 'Universelle plastische Dichtmasse' }
+];
